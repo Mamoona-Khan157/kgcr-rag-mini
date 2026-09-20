@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "text": "Berners-Lee",
+      "label": "PERSON"
+    },
+    {
+      "text": "London",
+      "label": "GPE"
+    },
+    {
+      "text": "8 June 1955",
+      "label": "DATE"
+    },
+    {
+      "text": "Berners-Lee",
+      "label": "PERSON"
+    },
+    {
+      "text": "CERN",
+      "label": "GPE"
+    },
+    {
+      "text": "June to December 1980",
+      "label": "DATE"
+    },
+    {
+      "text": "Geneva",
+      "label": "GPE"
+    },
+    {
+      "text": "hypertext",
+      "label": "CONCEPT"
+    },
+    {
+      "text": "independent contractor",
+      "label": "ROLE"
+    },
+    {
+      "text": "researchers",
+      "label": "GROUP"
+    },
+    {
+      "text": "project",
+      "label": "ARTIFACT"
+    }
+  ],
+  "relations": [
+    {
+      "head": "Berners-Lee",
+      "relation": "bornIn",
+      "tail": "London"
+    },
+    {
+      "head": "Berners-Lee",
+      "relation": "birthDate",
+      "tail": "8 June 1955"
+    },
+    {
+      "head": "Berners-Lee",
+      "relation": "workedAt",
+      "tail": "CERN"
+    },
+    {
+      "head": "Berners-Lee",
+      "relation": "hadRole",
+      "tail": "independent contractor"
+    },
+    {
+      "head": "Berners-Lee",
+      "relation": "workPeriod",
+      "tail": "June to December 1980"
+    },
+    {
+      "head": "Berners-Lee",
+      "relation": "locatedIn",
+      "tail": "Geneva"
+    },
+    {
+      "head": "Berners-Lee",
+      "relation": "proposed",
+      "tail": "project"
+    },
+    {
+      "head": "project",
+      "relation": "basedOn",
+      "tail": "hypertext"
+    },
+    {
+      "head": "project",
+      "relation": "purpose",
+      "tail": "sharing and updating information among researchers"
+    }
+  ]
+}
